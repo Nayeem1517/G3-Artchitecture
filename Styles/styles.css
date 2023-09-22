@@ -8,7 +8,7 @@
 /* Adding the header css */
 header {
     background-color: rgb(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 180px;
 }
 
 .nav-title {
@@ -16,6 +16,11 @@ header {
     font-weight: 700;
     color: #131313;
 
+
+}
+
+.tempo {
+    margin-top: 45px;
 }
 
 
@@ -54,6 +59,9 @@ nav li a {
     font-weight: 700;
     color: #131313;
 }
+.buddy{
+    margin-right: 40px;
+}
 
 .banner-description {
     color: #727272;
@@ -72,6 +80,7 @@ nav li a {
 .banner img {
     width: 100%;
     margin: 20px;
+
 }
 
 /* Responsive media Query */
@@ -88,6 +97,7 @@ main {
 .teams-container {
     display: flex;
     align-items: center;
+    margin-left: 100px;
 }
 
 .team-img-container {
@@ -117,6 +127,11 @@ main {
 
 }
 
+.add-feature {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 
 
 
