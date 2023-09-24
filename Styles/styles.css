@@ -185,11 +185,27 @@ main {
     width: 165px;
 
 }
+.feature-model{
+    display: flex;
+}
+.model-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+.model-description{
+    color: #727272;
+}
 
-
-
-
-
+.model-card{
+    border-radius: 8px;
+    border: 1px solid #181716;
+    margin-top: 10px;
+    padding: 10px;
+}
+.feature-model{
+    gap: 20px;
+}
 
 
 
@@ -217,7 +233,7 @@ main {
 
     .teams-container,
     .card-container 
-    , .sopnsors-img-container{
+    , .sopnsors-img-container , .feature-model{
         flex-direction: column;
     }
 
