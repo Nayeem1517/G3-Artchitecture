@@ -206,6 +206,21 @@ main {
 .feature-model{
     gap: 20px;
 }
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    background-color: lightgrey;
+}
+.footer-text{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.authore{
+    color: red;
+    text-align: end;
+}
 
 
 
